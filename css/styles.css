@@ -10970,3 +10970,32 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
+/* manual stuff added */
+.research-entry {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 30px; /* Space between entries */
+}
+
+.research-date {
+  width: 150px; /* Adjust width to align left */
+  text-align: right;
+  padding-right: 20px; /* Space between date and details */
+  font-weight: bold;
+}
+
+.research-details {
+  flex: 1; /* Takes up remaining space */
+}
+
+.resume-section {
+  scroll-snap-align: start;
+  min-height: 100vh; /* Allow it to expand if needed */
+  padding-top: 100px; /* Adjust to prevent overlap */
+}
+
+.resume-section h2 {
+  margin-top: 20px; /* Prevent overlap with navbar */
+  padding-top: 20px;
+}
